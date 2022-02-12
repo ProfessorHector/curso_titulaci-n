@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu de Navegación</title>
+    <style>
+        
+
+        body{
+            margin: 0;
+        }
+
+        header {
+            padding: 10px;
+            background-color: dimgray;
+        }
+
+        header>h1 {
+            text-align: center;
+            color: coral;
+        }
+
+        nav {
+            width: 100%;
+            background-color: steelblue;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        nav>ul {
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+        }
+
+        li {
+            list-style: none;
+            background-color: coral;
+            padding: 10px;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .main {
+            background-color: blueviolet;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Mi sitio web</h1>
+    </header>
+    <nav>
+        <a href="header.html">LOGO</a>
+        <ul>
+            <li><a href="#">Acerca de</a></li>
+            <li><a href="#">Contacto</a></li>
+            <li><a href="#">Acceso</a></li>
+        </ul>
+    </nav>
+    <div class="main">
+        <h2>Hola</h2>
+    </div>
+
+</body>
+
+</html>
