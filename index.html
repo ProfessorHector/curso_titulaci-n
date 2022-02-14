@@ -6,31 +6,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi página web</title>
-    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="css/estilo.css">
     <script src="https://kit.fontawesome.com/370c2c5246.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <header class="encabezado">
-        <img class="perfil" src="profile.png" alt="imagen de perfil">
+        <img class="perfil" src="img/profile.png" alt="imagen de perfil" width="200px">
         <h1>Hola 👋 </h1>
         <p>
-            Me llamo Héctor 👨‍💻 <i class="fa-solid fa-calendar"></i>
+            Me llamo Héctor 👨‍💻
         </p>
     </header>
-    <nav class="navegacion">
-        <a href="header.html">
+    <nav class="barra_navegacion">
+        <a class="logo" href="header.html">
             <h1>👨‍💻HECTOR</h1>
         </a>
         <ul>
-            <li><a href="#">Acerca de mi</a></li>
-            <li><a href="#">Experiencia</a></li>
-            <li><a href="#">Estudios</a></li>
+            <li><a class="enlaces_navegacion" href="#acerca_de_mi">🙋 Acerca de mi</a></li>
+            <li><a class="enlaces_navegacion" href="#experiencia">👨‍💼 Experiencia</a></li>
+            <li><a class="enlaces_navegacion" href="#estudios">🏫 Estudios</a></li>
         </ul>
     </nav>
-    <section id="seccion">
+    <section id="acerca_de_mi">
         <article class="informacion">
-            <h1>Acerca de mi</h1>
+            <h1>🙋 Acerca de mi</h1>
             <p>☕ Lorem ipsum dolor sit amet consectetur
                 adipisicing elit. Dolores inventore
                 molestias dolorum, eligendi
@@ -38,31 +38,59 @@
                 incidunt ullam adipisci veritatis modi at ducimus sed,
                 reiciendis eius nisi! Aspernatur.
             </p>
+            <br>
+            <p>✍️ Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Dolores inventore
+                molestias dolorum, eligendi
+                quos maxime veniam. Inventore, similique
+                incidunt ullam adipisci veritatis modi at ducimus sed,
+                reiciendis eius nisi! Aspernatur.
+            </p>
+            <div class="fotos">
+                <img src="img/programador.svg" alt="programador" width="200px">
+                <img src="img/teacher.svg" alt="maestro" width="200px">
+                <img src="img/superdad.svg" alt="papá" width="200px">
+            </div>
         </article>
         <aside class="menulateral">
-            <nav class="menu">
+            <h3>Enlaces de Interes</h3>
+            <nav class="lista_de_enlaces">
                 <ul>
-                    <li><a class="link" href="proyectos.html">Proyectos</a></li>
-                    <li><a class="link" href="https://exobchix.github.io/" target="_blank">Contacto</a></li>
+                    <li><a href="proyectos.html">💼 Proyectos</a></li>
+                    <li><a href="contacto.html" target="_blank">📞 Contacto</a></li>
+                    <li><a href="#">
+                            🗃️ GitHub
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            📱 WhatsApp
+                        </a>
+                    </li>
                 </ul>
             </nav>
         </aside>
     </section>
-    <section class="experiencia">
-        <article class="informacion">
-            <h1>Experiencia</h1>
-            <div class="trabajo">
+    <section id="experiencia">
+        <article class="trabajos">
+            <h1>👨‍💼 Experiencia</h1>
+            <div class="informacion_trabajo">
                 <h4>UICSLP</h4>
                 <p>bkjsdbkdbkbv</p>
             </div>
-            <div class="trabajo">
+            <div class="informacion_trabajo">
                 <h4>ODISEALABS</h4>
                 <p>bkjsdbkdbkbv</p>
             </div>
-            <div class="trabajo">
+            <div class="informacion_trabajo">
                 <h4>TECNM</h4>
                 <p>bkjsdbkdbkbv</p>
             </div>
+        </article>
+    </section>
+    <section id="estudios">
+        <article class="escuelas">
+            <h1>🏫 Estudios</h1>
         </article>
     </section>
     <footer class="pie_de_pagina">
