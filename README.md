@@ -1,1 +1,3 @@
-# curso_titulaci-n
+# Curso de Titulación
+## Lic. En Informática Administrativa
+## Página web de ejemplo
